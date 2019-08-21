@@ -1,1 +1,29 @@
-
+<html>
+  <head>
+    <style>
+      body {
+        padding:50px;
+      }
+      @keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+  .box-spin {
+  width: 100px;
+  height: 100px;
+  background-color: #red;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+    </style>
+  </head>
+  <body>
+    <div class="box-spin"></div>
+  </body>
+</html>
