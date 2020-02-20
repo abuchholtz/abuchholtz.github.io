@@ -1,29 +1,239 @@
+<html lang="en-US">
 <html>
-  <head>
-    <style>
-      body {
-        padding:50px;
-      }
-      @keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-  .box-spin {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: spin;
-  animation-duration: 5000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; 
-}
-    </style>
-  </head>
-  <body>
-    <div class="box-spin"></div>
-  </body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Allison Buchholtz - Graphic Designer, UI, and Web Developer.">
+<meta name="keywords" content="HTML, CSS, Javascript, UI, Graphic Design, Developer, Websites, Sacramento">
+<meta name="robots" content="index,nofollow">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Allison Buchholtz - Graphic Designer, UI, and Web Developer">
+<meta property="og:description" content="Come check out my portfolio."
+<meta property="og:url" content="here">
+<meta property="og:image" content="">
+
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Cabin|Calistoga&display=swap" rel="stylesheet">
+
+<script>
+function init() {
+var imgDefer = document.getElementsByTagName('img');
+for (var i=0; i<imgDefer.length; i++) {
+if(imgDefer[i].getAttribute('data-src')) {
+imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
+} } }
+window.onload = init;
+</script>
+
+</head>
+
+<body>
+  <section class="header-bg">
+    <div class="plus-pattern"></div>
+    <!-- <div class="pt-4 white-line"></div> -->
+    <div class="content-spacing">
+      <div class="d-flex justify-content-between justify-content-sm-end pt-5">
+        <a href="#about" class="main-links mr-2 mr-sm-3"><span class="small-link-number">01</span> About</a>
+        <a href="#services" class="main-links mx-2 mx-sm-3"><span class="small-link-number">02</span> Services</a>
+        <a href="#portfolio" class="main-links mx-2 mx-sm-3"><span class="small-link-number">03</span> Portfolio</a>
+        <a href="#contact" class="main-links mr-2 ml-sm-3"><span class="small-link-number">04</span> Contact <span class="d-none d-lg-inline-block"> & Pricing</span></a>
+      </div>
+        <div class="spacer-5"></div>
+        <div class="d-none d-md-block d-xl-none"><div class="spacer-2"></div></div>
+        <div class="d-none d-xl-block"><div class="spacer-5"></div></div>
+      <span class="name-title">Allison Buchholtz </span><br>
+      <div class="title-header mt-3">A Sacramento Graphic Designer</div>
+      <div class="subtitle-header">Who Specializes In Website Design, UI, & Development.</div>
+      <div class="btn-spacer">
+        <div class="btn-resume mt-5 mx-auto mx-lg-0">Download Resume</div>
+        <div class="chevron-spacing">
+          <div class="bounce animated">
+            <svg class="svg-icon" viewBox="0 0 20 20">
+    					<path fill="none" d="M11.611,10.049l-4.76-4.873c-0.303-0.31-0.297-0.804,0.012-1.105c0.309-0.304,0.803-0.293,1.105,0.012l5.306,5.433c0.304,0.31,0.296,0.805-0.012,1.105L7.83,15.928c-0.152,0.148-0.35,0.223-0.547,0.223c-0.203,0-0.406-0.08-0.559-0.236c-0.303-0.309-0.295-0.803,0.012-1.104L11.611,10.049z"></path>
+    				</svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="succulent-img"></div>
+  </section>
+
+  <section class="aboutMe-bg">
+    <div class="spacer-5"></div><div class="spacer-2"></div>
+    <div class="content-spacing">
+      <div class="row">
+        <div class="col-12">
+          <div id="about"></div><h1 class="title-header text-white"><span class="small-link-number text-white">01</span>&nbsp; About Me</h1>
+          <div class="spacer-5"></div>
+        </div>
+        <div class="col-12 col-md col-xl-6">
+          <p class="subtitle-header text-md-right text-white">Hello! I am <span class="fontColor-peach"><br class="br-md-display">Allison Buchholtz</span>.</p>
+
+          <p class="aboutMe">I strive to create effective and successful designs that make an impression on potential customers.</p>
+
+          <p class="aboutMe">In my career as a graphic designer, I have learned a lot about consumer-focused design and creating an efficient visual message.
+
+          My clients like that I work quickly, allowing them to see changes and have direct input into the design in real-time.</p>
+
+          <p class="aboutMe">When not in design mode, I read, play video games, design table top modules, create art, and listen to podcasts while tending to my own projects.</p>
+          </p>
+        </div>
+        <div class="col-12 col-md">
+          <div class="aboutMe-image mx-md-auto mt-4 mt-md-2"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="clearfix"></div>
+
+  <section class="services-bg">
+    <div class="spacer-5"></div>
+    <div class="content-spacing">
+      <div class="row">
+        <div class="col-12 col-lg-5">
+          <div id="services"></div><h1 class="title-header text-white"><span class="small-link-number text-white">02</span>&nbsp; Se<span class="letter-spacing-title">rv</span>ices</h1>
+          <div class="spacer-2"></div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 text-white">
+          <div class="d-none d-lg-block spacer-27"></div>
+          <div class="left-space-service">
+            <p>Front-End Web Development</p>
+            <p>User Interface Design</p>
+            <p>Web Design</p>
+            <p>HTML / CSS / Javascript</p>
+            <p>Wireframing</p>
+            <p>Accessibility & SEO</p>
+            <p>Digital Ads</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 text-white">
+          <div class="d-none d-lg-block spacer-27"></div>
+          <div class="left-space-service">
+            <p>Advertisements<br>
+             <span class="smaller-services">(magazine, flyers, EDDM postcards)</span></p>
+            <p>Branding / Logo Design</p>
+            <p>Editorial Layout<br>
+            <span class="smaller-services">(magazine / newspaper layout, catalogs)</span></p>
+            <p>Signs & Banners</p>
+            <p>Illustration</p>
+            <p>Design Consultation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="service-image"></div>
+  </section>
+
+  <section class="portfolio-bg">
+    <div class="content-spacing">
+      <div id="portfolio"></div><h1 class="title-header text-center"><span class="small-link-number ">03</span>&nbsp; Portfolio</h1>
+      <div class="row mt-5 mb-3">
+        <div class="col-12 col-md-6">
+          <h2 class="subtitle-header portfolio-title ">Websites & UI</h2>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="portfolio-img portfolio-01"></div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="portfolio-img portfolio-02"></div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="portfolio-img portfolio-03"></div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="portfolio-img portfolio-04"></div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="portfolio-img portfolio-05"></div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="portfolio-img portfolio-06"></div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="portfolio-img portfolio-07"></div>
+        </div>
+
+        <div class="content-spacing">
+          <div class="row mt-5 mb-3">
+            <div class="col-12 col-md-6">
+              <h2 class="subtitle-header portfolio-title">Poster Design</h2>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="poster-img portfolio-08"></div>
+            </div>
+            <div class="col-12 col-md-6 offset-md-6">
+              <div class="poster-img portfolio-09"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-spacing">
+          <div class="row mt-5 mb-3">
+            <div class="col-12 col-md-6">
+              <h2 class="subtitle-header portfolio-title">Print Media</h2>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="poster-img portfolio-10"></div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="poster-img portfolio-11"></div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="poster-img portfolio-12"></div>
+            </div>
+          </div>
+        </div>
+        <div class="content-spacing">
+          <div class="row mt-5">
+            <div class="col-12 col-md-6">
+              <h2 class="subtitle-header portfolio-title">Digital Ads</h2>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="portfolio-img  portfolio-13"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-price-bg">
+    <div class="content-spacing">
+      <div class="row">
+        <div class="col-12 col-lg-7">
+          <div id="contact"></div><h1 class="title-header text-white text-center text-md-left"><span class="small-link-number text-white">04</span>&nbsp; Contact & Pricing</h1>
+          <div class="spacer-5"></div><div class="spacer-2"></div>
+
+          <p class="subtitle-header text-white">Contact</p>
+          <p class="email-font mb-5 mb-lg-0">aebuchholtz{@}gmail.com</p>
+        </div>
+        <div class="col-12 col-lg-5 text-white pricing-bg py-sm-5 px-sm-5">
+          <p class="subtitle-header text-white">Pricing</p>
+          <p><b>Website</b><br>
+          <i>(Initial / Homepage design)</i>: $250.00<br>
+		      <i>Additional pages</i>: $50<br>
+		      <i>Basic Wordpress site</i>: $700<br>
+		      <i>Commerce / Commercial wordpress site</i>: $3000<br>
+		      <b>Basic custom site</b> <i>(html / css)</i>: $2000</p>
+          <p class="mb-3"><i><b><small>*Required with website development contract</b></i>:<br>
+          Sitemap - $40</small></p>
+
+          <p><b>Poster Design</b> - $200-$400 <i><small>(size / scale of project)</small></i> </p>
+
+          <p><b>Advertisement Design</b> - $200</p>
+
+          <p><b>Logo</b> - $500</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
 </html>
