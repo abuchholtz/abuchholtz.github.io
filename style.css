@@ -725,6 +725,7 @@ p.portfolio--text {
   }
   .service-section--box {
     max-width: 364px;
+    height: 550px;
     margin: .1rem .2rem;
     border: 2px solid #e4c0c0;
     box-shadow: 0px 3px 20px -2px rgba(253, 156, 156, .75);
